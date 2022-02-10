@@ -1,0 +1,4 @@
+rootProject.name = 'SimpleLanFileServer'
+include ':module-file' as String
+include ':module-launcher-flex-port' as String
+

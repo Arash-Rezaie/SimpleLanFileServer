@@ -1,0 +1,66 @@
+body {
+    font-size: 1em !important;
+}
+
+button {
+    font-size: 0.8em;
+}
+
+.h-divider {
+    width: 98%;
+    height: 1px;
+    position: relative;
+    left: 1%;
+    background: blue;
+    margin-top: 16px;
+    margin-bottom: 15px;
+}
+
+.location-container {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.location-container input {
+    flex-grow: 1;
+}
+
+input {
+    margin-right: 8px;
+    font-size: 0.8em;
+}
+
+.tbl-file-list {
+    margin: 3px 0;
+    font-size: 0.8em !important;
+}
+
+.tbl-file-list td {
+    margin: 0 5px;
+}
+
+.tbl-file-list .icon {
+    width: 16px;
+    height: 16px;
+}
+
+.tbl-file-list .file {
+    color: blue;
+    cursor: pointer;
+}
+
+.progress-u,
+.tbl-file-list .progress-d {
+    color: red;
+    display: inline-block;
+    min-height: 1px;
+    min-width: 4em;
+}
+
+.info {
+    display: block;
+    color: darkslateblue;
+    margin: 3px 3px 3px 0;
+}

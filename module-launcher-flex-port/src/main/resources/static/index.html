@@ -1,0 +1,31 @@
+<html lang="en-US">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" rel="stylesheet" href="/static/styles/main.css"/>
+    <script src="/static/scripts/axios.min.js"></script>
+    <script src="/static/scripts/jquery-3.6.0.min.js"></script>
+    <script src="/static/scripts/main.js"></script>
+    <title>Simple LAN File Server</title>
+</head>
+<body>
+<div class="h-divider"></div>
+<div>
+    <h4>Upload:</h4>
+    <span class="info">!!file will be uploaded to "[app location]/uploads/" dir!!</span>
+    <input type="file" id="file-path">
+    <button id="btn-upload">Send</button>
+    <span class="progress-u"></span>
+</div>
+<div class="h-divider"></div>
+<div>
+    <h4>Download:</h4>
+    <div class="location-container">
+        <label for="path" style="margin-right: 3px">Path:</label><input type="text" id="path" class="info">
+        <button id="btnGo">Go</button>
+    </div>
+    <input type="hidden" id="current-loc"/>
+    <div id="path-content"></div>
+</div>
+</body>
+</html>
