@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.List;
 
 public class Settings {
-    private HashMap<String, Object> container = new HashMap<>();
+    private final HashMap<String, Object> container = new HashMap<>();
 
     public void setPort(int port) {
         container.put("port", port);
